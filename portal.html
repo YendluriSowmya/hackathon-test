@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Data Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>COVID-19 Data Portal</h1>
+        <div class="form-group">
+            <label for="country">Select Country:</label>
+            <select id="country">
+               
+            </select>
+            <button id="getData">Get Data</button>
+        </div>
+        <div class="data-display">
+            <h2 id="countryName">Country: </h2>
+            <p id="cases">Cases: </p>
+            <p id="deaths">Deaths: </p>
+            <p id="recovered">Recovered: </p>
+        </div>
+        <canvas id="covidChart"></canvas>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

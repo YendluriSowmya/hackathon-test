@@ -1,0 +1,67 @@
+.body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: #fbf8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;   
+}
+.expense {
+    margin-bottom: 20px;   
+}
+.expense input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#addExpense {
+    width: 100%;
+    padding: 10px;
+    background-color: #41e7e5;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#addExpense:hover {
+    background-color: #0056b3;
+}
+
+.expense-list {
+    margin-top: 20px;
+}
+
+#expenseTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#expenseTable th, #expenseTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#expenseTable th {
+    background-color: #00d9ff;
+    color: white;
+}
+.edit-btn{
+    background-color:#387e1f;
+    color:white;
+}
+.delete-btn{
+    background-color: #c91726;
+    color:white;
+}
